@@ -1,3 +1,4 @@
+/* hat */
 header{
     margin-top: 45px;
     text-decoration-line: underline;
@@ -14,18 +15,16 @@ header a{
 }
 
 /* text */
-.home-zone{
-    margin: 326px 0 0 187px;
-    display: block;
+div p{
     color: #000;
     font-family: Montserrat;
-    font-size: 68.056px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
-.home-zone #im{
+#im{
     background: url("../img/immersion.png"), lightgray -7.447px -53.808px / 100% 358.363% no-repeat;
     background-clip: text;
     -webkit-background-clip: text;
@@ -38,44 +37,35 @@ header a{
     line-height: normal;
 }
 
-.home-text{
-    width: 731px;
-    margin: 31px 0 0 389px;
+.zone{
+    position: absolute;
+    left: 300px;
+    top: 617px;
+    display: block;
+}
+
+.text{
+    width: 1319px;
+    height: 237px;
+    flex-shrink: 0;
     color: #000;
     font-family: Montserrat;
-    font-size: 50px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
-img{
-    pointer-events: none;
-}
-
-.button{
-    padding-top: 3px;
-    margin: 23px 0 0 726px;
-    width: 385px;
-    height: 60px;
-    background: linear-gradient(to right,#0ae2c5, #0c556b);
-    border-radius: 10px;
-    text-align: center;
-    user-select: none;
-    outline: none;
-
-}
-.button a{
-    font-size: 40px;
-    font-weight: bold;
-    font-family: Montserrat;
-    color: #fff;
-    text-decoration: none;
-}
-
+/* footer */
 #down{
     position: absolute;
     right: 1%;
     bottom: 1%;
     font-family: Montserrat;
+}
+
+
+/* img */
+img{
+    pointer-events: none;
 }

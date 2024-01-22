@@ -1,0 +1,102 @@
+/* hat */
+header{
+    margin-top: 45px;
+    text-decoration-line: underline;
+}
+header a{
+    margin-left: 96px;
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    /* font-style: normal; */
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* text */
+
+main{  
+    margin: 133px 0 0 302px;
+    width: 1315px;
+    height: 144px;
+    flex-shrink: 0;
+    text-align: center;
+}
+main p{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* buttons */
+.container{
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 800px;
+    gap: 5% 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container div{
+    padding-top: 15px;
+    width: 410px;
+    height: 119px;
+    flex-shrink: 0;
+    background: linear-gradient(102deg, #46C6C8 18.01%, #055C83 84.23%);
+    /* background-color: aqua; */
+    border-radius: 15px;
+    text-align: center;
+}
+.container div a{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.container div p{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* down text */
+#down{
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+    font-family: Montserrat;
+}
+
+/* image */
+#im{
+    background: url("../img/immersion.png"), lightgray -7.447px -53.808px / 100% 358.363% no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    flex-shrink: 0;
+    font-family: Rammetto One;
+    font-size: 68.056px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+img{
+    pointer-events: none;
+}
+
+

@@ -1,0 +1,55 @@
+/* hat */
+header{
+    margin-top: 45px;
+    text-decoration-line: underline;
+}
+header a{
+    margin-left: 96px;
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    /* font-style: normal; */
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* main */
+.head-description{
+    width: 1594px;
+    height: 122px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.start-head-moduleOne{
+    width: 1320px;
+    height: 74px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* down */
+#down{
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+    font-family: Montserrat;
+}
+
+
+/* image */
+
+img{
+    pointer-events: none;
+}
