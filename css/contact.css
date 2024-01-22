@@ -38,9 +38,7 @@ div p{
 }
 
 .zone{
-    position: absolute;
-    left: 300px;
-    top: 617px;
+    margin: 502px 0 0 300px;
     display: block;
 }
 
