@@ -15,6 +15,22 @@ header a{
 }
 
 /* main */
+.topic{
+    background: url("../img/module-1-grammar.png"), lightgray -7.447px -53.808px / 100% 358.363% no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    flex-shrink: 0;
+    font-family: Rammetto One;
+    font-size: 68.056px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.topic{
+    margin: 90px 0 0 140px;
+}
+
 .head-description{
     width: 1594px;
     height: 122px;
@@ -25,6 +41,9 @@ header a{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+.head-description{
+    margin: 57px 0 0 140px;
 }
 
 .start-head-moduleOne{
@@ -38,7 +57,9 @@ header a{
     font-weight: 300;
     line-height: normal;
 }
-
+.start-head-moduleOne{
+    margin: 57px 0 0 140px;
+}
 /* down */
 #down{
     position: absolute;
