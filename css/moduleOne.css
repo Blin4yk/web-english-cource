@@ -46,6 +46,11 @@ header a{
     margin: 57px 0 0 140px;
 }
 
+.block{
+    margin-left: 310px;
+    margin-top: 57px;
+}
+
 .start-head-moduleOne{
     width: 1320px;
     height: 74px;
@@ -59,6 +64,51 @@ header a{
 }
 .start-head-moduleOne{
     margin: 57px 0 0 140px;
+}
+
+.start-moduleOne{
+    width: 1150px;
+    height: 111px;
+    flex-shrink: 0;
+    color: #0B495A;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+ol{
+    list-style-type:"·";
+    margin-top: 57px;
+}
+ol li{
+    margin-left: 25px;
+    padding-left: 25px;
+}
+.circle{
+    margin-top: 38px;
+    width: 1150px;
+    height: 92px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid;
+    padding: 15px 0 15px 0;
+}
+.circle{
+    color: #0B495A;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+#bold{
+    font-weight: 500;
+}
+
+#underline{
+    text-decoration: underline 1px;
 }
 /* down */
 #down{
