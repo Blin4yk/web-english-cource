@@ -61,20 +61,23 @@ header a{
     margin: 57px 0 0 140px;
 }
 
-.block{
-    margin-left: 310px;
+.blockTwo{
+    margin-left: 330px;
     margin-top: 57px;
     height: auto;
 }
-.block div{
+.blockTwo div{
     margin-top: 57px;
     height: auto;
 }
 
 .start-moduleOne{
+    margin: 57px 0 0 342px;
     width: 1150px;
     height: auto;
     flex-shrink: 0;
+}
+.start-moduleOne{
     color: #0B495A;
     font-family: Montserrat;
     font-size: 30px;
@@ -83,11 +86,12 @@ header a{
     line-height: normal;
 }
 
-.main-moduleOne{
-    width: 1150px;
-    height: 111px;
-    flex-shrink: 0;
-    margin-top: 57px;
+.MrCrab{
+    margin: 82px 0 0 310px;
+    height: auto;
+    width: 1093px;
+}
+.MrCrab{
     color: #000;
     font-family: Montserrat;
     font-size: 30px;
@@ -95,14 +99,18 @@ header a{
     font-weight: 300;
     line-height: normal;
 }
-.moduleOne-rules{
-    width: 1003px;
-    color: #000;
-    font-family: Montserrat;
-    font-size: 36.153px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+
+.main-moduleTwo{
+    margin: 82px 0 0 330px;
+    height: auto;
+}
+.main-moduleTwo{
+color: #000;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
 }
 
 ol{
@@ -113,66 +121,7 @@ ol li{
     margin-left: 25px;
     padding-left: 25px;
 }
-.circle{
-    margin-top: 38px;
-    height: auto;
-    flex-shrink: 0;
-    border-radius: 30px;
-    border: 1px solid;
-    padding: 15px 0 15px 0;
-}
-.circle{
-    color: #0B495A;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-}
-.circle-text-black{
-    height: auto;
-    flex-shrink: 0;
-    border-radius: 30px;
-    border: 1px solid;
-    color: #000;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding: 28px;
-}
-
-#rules-basic{
-    font-weight: 400;
-}
-#rules-red{
-    color: #DE3A08;
-    font-size: 30px;
-    font-weight: 400;
-}
 
 #bold{
     font-weight: 500;
-}
-
-
-#underline{
-    text-decoration: underline 1px;
-}
-/* down */
-#down{
-    position: fixed;
-    right: 1%;
-    bottom: 1%;
-    font-family: Montserrat;
-}
-
-
-/* image */
-
-img{
-    pointer-events: none;
 }

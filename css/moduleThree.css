@@ -33,7 +33,7 @@ header a{
 
 .head-description{
     width: 1594px;
-    height: 122px;
+    height: auto;
     flex-shrink: 0;
     color: #000;
     font-family: Montserrat;
@@ -48,7 +48,7 @@ header a{
 
 .start-head-moduleOne{
     width: 1320px;
-    height: 74px;
+    height: auto;
     flex-shrink: 0;
     color: #000;
     font-family: Montserrat;
@@ -61,50 +61,6 @@ header a{
     margin: 57px 0 0 140px;
 }
 
-.block{
-    margin-left: 310px;
-    margin-top: 57px;
-    height: auto;
-}
-.block div{
-    margin-top: 57px;
-    height: auto;
-}
-
-.start-moduleOne{
-    width: 1150px;
-    height: auto;
-    flex-shrink: 0;
-    color: #0B495A;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-}
-
-.main-moduleOne{
-    width: 1150px;
-    height: 111px;
-    flex-shrink: 0;
-    margin-top: 57px;
-    color: #000;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-}
-.moduleOne-rules{
-    width: 1003px;
-    color: #000;
-    font-family: Montserrat;
-    font-size: 36.153px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
 ol{
     list-style-type:"·";
     margin-top: 57px;
@@ -113,66 +69,78 @@ ol li{
     margin-left: 25px;
     padding-left: 25px;
 }
-.circle{
-    margin-top: 38px;
-    height: auto;
-    flex-shrink: 0;
-    border-radius: 30px;
-    border: 1px solid;
-    padding: 15px 0 15px 0;
+
+#ol-numbers{
+    list-style-type: decimal;
+    margin-top: 57px;
 }
-.circle{
-    color: #0B495A;
-    text-align: center;
+
+.block{
+    margin-left: 310px;
+    margin-top: 57px;
+    height: auto;
+    width: 1150px;
+}
+
+.block div{
+    margin-top: 57px;
+    height: auto;
+}
+
+.block div{
+    color: #000;
     font-family: Montserrat;
-    font-size: 25px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
 }
-.circle-text-black{
+
+.block div.stages{
+    margin-top: 57px;
     height: auto;
-    flex-shrink: 0;
-    border-radius: 30px;
-    border: 1px solid;
     color: #000;
-    text-align: center;
     font-family: Montserrat;
-    font-size: 30px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 28px;
 }
 
-#rules-basic{
+.stages{
+    width: 1150px;
+    height: auto;
+    flex-shrink: 0;
+}
+.stages div{
+
+    color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
     font-weight: 400;
+    line-height: normal;
 }
-#rules-red{
-    color: #DE3A08;
-    font-size: 30px;
+.stages p{
+    text-indent: 30px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
     font-weight: 400;
+    line-height: normal;
 }
-
-#bold{
-    font-weight: 500;
-}
-
 
 #underline{
-    text-decoration: underline 1px;
+    text-decoration: underline 2px;
 }
-/* down */
-#down{
-    position: fixed;
-    right: 1%;
-    bottom: 1%;
+
+#blue-text{
+    margin-left: 56px;
+    color: rgba(5, 49, 93, 0.50);
     font-family: Montserrat;
-}
-
-
-/* image */
-
-img{
-    pointer-events: none;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
